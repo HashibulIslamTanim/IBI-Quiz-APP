@@ -160,7 +160,7 @@ p{
 }
 
 .myoption{
-    width: 319px;
+    width: 342px;
     height: fit-content;
     
     align-items: center;
@@ -177,7 +177,7 @@ p{
     padding-top: 10px;
     text-align: center;
     align-items: center;
-    margin-left: 12px;
+    margin-left: 23px;
     margin-top: 15px;
     font-size: 18px;
     background-color: rgb(182, 182, 253);
@@ -343,14 +343,7 @@ position: absolute;
     margin-top: 3px;
 }
 
-@media (min-width:395px){
 
-
-
-
-
-
-}
 
 
 
