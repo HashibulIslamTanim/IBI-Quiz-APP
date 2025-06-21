@@ -5,7 +5,7 @@
  }
  
  .fristpage{
-width: 319px;
+width: 329px;
 height: 670px;
 background-color: rgb(149, 247, 214);
 margin: auto;
@@ -81,7 +81,7 @@ p{
 
 
 .quepage{
-    width: 319px;
+    width: 329px;
     height: 670px;
     background-color: rgb(149, 247, 214);
     margin: auto;
@@ -104,7 +104,7 @@ p{
 
 }
 .quepage .header{
-    width: 319px;
+    width: 329px;
     height: 40px;
     margin-top: -20px;
     border-radius: 50px 50px 0px 0px;
