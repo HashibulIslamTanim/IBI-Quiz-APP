@@ -23,7 +23,7 @@ position: relative;
  }
 
 .image{
-    width: 319px;
+    width: full;
     height: 300px;
     display: flex;
     background-position: center;
@@ -65,7 +65,8 @@ p{
     border: none;
     outline: none;
     border-radius: 50px 0px 50px 0px;
-    margin-left: 167px;
+    /* margin-left: 167px; */
+    right:  -10px;
     position: absolute;
     cursor: pointer;
     transition: 0.9s ease-out; 
@@ -81,8 +82,8 @@ p{
 
 
 .quepage{
-    width: 329px;
-    height: 670px;
+    width: 342px;
+    height: 665px;
     background-color: rgb(149, 247, 214);
     margin: auto;
     border-radius: 50px;
@@ -104,7 +105,7 @@ p{
 
 }
 .quepage .header{
-    width: 329px;
+    width: full;
     height: 40px;
     margin-top: -20px;
     border-radius: 50px 50px 0px 0px;
@@ -206,7 +207,8 @@ p{
     border: none;
     outline: none;
     border-radius: 50px 0px 50px 0px;
-    margin-left: 173px;
+    /* margin-left: 173px; */
+    right: -23px;
     position: absolute;
     cursor: pointer;
     transition: 0.9s ease-out; 
@@ -253,8 +255,8 @@ p{
 
 
 .resultpage{
-width: 319px;
-height: 670px;
+width: 342px;
+height: 665px;
 background-color: rgb(247, 246, 188);
 margin: auto;
 border-radius: 50px;
@@ -273,7 +275,7 @@ position: absolute;
     transition: 0.5s ease-in;
 }
 .rsimage{
-    width: 319px;
+    width: full;
     height: 300px;
     margin-top: -10px;
 
@@ -334,7 +336,7 @@ position: absolute;
     text-align: center;
     align-items: center;
     border-radius: 20px;
-    transform: translate(10px,-40px);
+    transform: translate(20px,-40px);
     position: absolute;
 }
 .resultpage .footer p{

@@ -175,7 +175,7 @@ let timeline ;
 function timeLineShow(time){
     timeline = setInterval (timel,50);
     function timel(){
-        time+=1
+        time+=1.05
         tmlining.style.width = time + "px";
     
     if(time>455){
