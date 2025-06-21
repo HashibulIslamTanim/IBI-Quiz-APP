@@ -6,7 +6,7 @@
  
  .fristpage{
 width: 319px;
-height: 680px;
+height: 670px;
 background-color: rgb(149, 247, 214);
 margin: auto;
 border-radius: 50px;
@@ -17,6 +17,9 @@ position: relative;
 
 
     
+ }
+ .fristpage.removefrpage{
+    display: none;
  }
 
 .image{
@@ -79,7 +82,7 @@ p{
 
 .quepage{
     width: 319px;
-    height: 680px;
+    height: 670px;
     background-color: rgb(149, 247, 214);
     margin: auto;
     border-radius: 50px;
@@ -95,7 +98,8 @@ p{
     /* opacity: 1; */
     display: block;
     z-index: 5;
-    transform: translate(24%,-100%);
+    margin: auto;
+    transform: translate(16vw,0%);
     transition: 0.5s ease-in;
 
 }
@@ -250,7 +254,7 @@ p{
 
 .resultpage{
 width: 319px;
-height: 680px;
+height: 670px;
 background-color: rgb(247, 246, 188);
 margin: auto;
 border-radius: 50px;
@@ -265,7 +269,7 @@ position: absolute;
     /* opacity: 1; */
     display: block;
     z-index: 5;
-    transform: translate(24%,-100%);
+    /* transform: translate(24%,-100%); */
     transition: 0.5s ease-in;
 }
 .rsimage{

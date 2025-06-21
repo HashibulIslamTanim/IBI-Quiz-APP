@@ -1,4 +1,5 @@
 const startbtn = document.querySelector(".MYbutt button");
+const fristpage = document.querySelector(".fristpage")
 const quepage = document.querySelector(".quepage");
 const quetext = document.querySelector(".quetext");
 const myoption = document.querySelector(".myoption");
@@ -10,6 +11,7 @@ const resultpage = document.querySelector(".resultpage");
 const result = document.querySelector(".result");
 const lastbtn = document.querySelector(".lastbtn");
 
+
 lastbtn.onclick = () => {
     window.location.reload();
 }
@@ -18,6 +20,7 @@ lastbtn.onclick = () => {
 
 startbtn.onclick = () => {
 quepage.classList.add("questionactive");
+fristpage.classList.add("removefrpage");
 showQuestion(0);
 timeShow(15);
 timeLineShow(0);
