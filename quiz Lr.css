@@ -6,7 +6,7 @@
  
  .fristpage{
 width: 319px;
-height: 690px;
+height: 680px;
 background-color: rgb(149, 247, 214);
 margin: auto;
 border-radius: 50px;
@@ -79,7 +79,7 @@ p{
 
 .quepage{
     width: 319px;
-    height: 690px;
+    height: 680px;
     background-color: rgb(149, 247, 214);
     margin: auto;
     border-radius: 50px;
@@ -88,21 +88,21 @@ p{
     transition: 0.5s ease-in;
     /* opacity: 0; */
     display: none;
-    position: relative;
+    position: absolute;
 
 }
 .quepage.questionactive{
     /* opacity: 1; */
     display: block;
     z-index: 5;
-    transform: translate(-0%,-108%);
+    transform: translate(24%,-100%);
     transition: 0.5s ease-in;
 
 }
 .quepage .header{
     width: 319px;
     height: 40px;
-    margin-top: 55px;
+    margin-top: -20px;
     border-radius: 50px 50px 0px 0px;
     background-color: rgb(160, 160, 194);
     position: relative;
@@ -176,7 +176,7 @@ p{
     margin-top: 15px;
     font-size: 18px;
     background-color: rgb(182, 182, 253);
-    transition: 0.9s ease-in;
+    transition: 0.5s ease-in;
     cursor: pointer;
 
 }
@@ -237,7 +237,7 @@ p{
     background-color:red;
 }
 .options.correct{
-    background-color: rgba(95, 255, 47,0.5);
+    background-color: rgba(115, 239, 78, 0.5);
 }
 
 .myoption .options.disabled{
@@ -250,7 +250,7 @@ p{
 
 .resultpage{
 width: 319px;
-height: 690px;
+height: 680px;
 background-color: rgb(247, 246, 188);
 margin: auto;
 border-radius: 50px;
@@ -258,13 +258,14 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 10px;
 /* opacity: 0; */
 display: none;
+position: absolute;
 
 }
 .resultpage.resultshow{
     /* opacity: 1; */
     display: block;
     z-index: 5;
-    transform: translate(-0%,-206.5%);
+    transform: translate(24%,-100%);
     transition: 0.5s ease-in;
 }
 .rsimage{
