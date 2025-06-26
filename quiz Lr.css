@@ -1,11 +1,11 @@
  body{
     padding: 0;
-    background-color: #ac96969d;
+    background-color: rgb(15, 32, 59);
     
  }
  
  .fristpage{
-width: 329px;
+width: 344px;
 height: 670px;
 background-color: rgb(149, 247, 214);
 margin: auto;
@@ -13,6 +13,7 @@ border-radius: 50px;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 15px;
 position: relative;
+
 
 
 
@@ -50,7 +51,7 @@ p{
     margin-left: 10PX;
 }
 .fristpage .MYbutt{
-    width: 319px;
+    width: 342px;
     height: 50px;
     position: absolute;
     bottom: 0px;
@@ -66,7 +67,7 @@ p{
     outline: none;
     border-radius: 50px 0px 50px 0px;
     /* margin-left: 167px; */
-    right:  -10px;
+    right:  0px;
     position: absolute;
     cursor: pointer;
     transition: 0.9s ease-out; 
@@ -82,8 +83,8 @@ p{
 
 
 .quepage{
-    width: 342px;
-    height: 665px;
+    width: 344px;
+    height: 670px;
     background-color: rgb(149, 247, 214);
     margin: auto;
     border-radius: 50px;
@@ -100,7 +101,7 @@ p{
     display: block;
     z-index: 5;
     margin: auto;
-    transform: translate(16vw,0%);
+    transform: translate(0%,0%);
     transition: 0.5s ease-in;
 
 }
@@ -160,7 +161,7 @@ p{
 }
 
 .myoption{
-    width: 342px;
+    width: 344px;
     height: fit-content;
     
     align-items: center;
@@ -190,7 +191,7 @@ p{
     background-color: rgb(150, 150, 180);
 }
 .footer{
-    width: 319px;
+    width: 344px;
     height: 50px;
     position: absolute;
     bottom: 0px;
@@ -208,7 +209,7 @@ p{
     outline: none;
     border-radius: 50px 0px 50px 0px;
     /* margin-left: 173px; */
-    right: -23px;
+    right: 0px;
     position: absolute;
     cursor: pointer;
     transition: 0.9s ease-out; 
@@ -255,8 +256,8 @@ p{
 
 
 .resultpage{
-width: 342px;
-height: 665px;
+width: 344px;
+height: 670px;
 background-color: rgb(247, 246, 188);
 margin: auto;
 border-radius: 50px;
